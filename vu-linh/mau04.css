@@ -685,3 +685,16 @@ background-color: #cccccb;
 
 }
 
+
+
+@media (max-width: 480px){
+    .container {
+        width: 100%;
+    }
+    .container-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
