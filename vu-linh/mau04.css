@@ -1,0 +1,687 @@
+@font-face {
+    font-family: '1FTV Blushing Rose';
+    src: url('../vu-linh/fonts/1FTVBlushingRose.eot');
+    src: url('../vu-linh/fonts/1FTVBlushingRose.eot?#iefix') format('embedded-opentype'),
+        url('../vu-linh/fonts/1FTVBlushingRose.woff2') format('woff2'),
+        url('../vu-linh/fonts/1FTVBlushingRose.woff') format('woff'),
+        url('../vu-linh/fonts/1FTVBlushingRose.ttf') format('truetype'),
+        url('../vu-linh/fonts/1FTVBlushingRose.svg#1FTVBlushingRose') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamBlack.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBlack.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBlack.svg#SVN-GothamBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-Gotham.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-Gotham.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-Gotham.svg#SVN-Gotham') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamLight.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamThin.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamThin.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamThin.svg#SVN-GothamThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('../vu-linh/fonts/SVN-GothamBook.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBook.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBook.svg#SVN-GothamBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('../vu-linh/fonts/SVN-GothamUltra.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamUltra.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamUltra.svg#SVN-GothamUltra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBold.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBlackItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBlackItalic.svg#SVN-GothamBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBoldItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamItalic.svg#SVN-GothamItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('../vu-linh/fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamUltraItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamUltraItalic.svg#SVN-GothamUltraItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamLightItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBold.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamLight.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamThinItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamThinItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamThinItalic.svg#SVN-GothamThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('../vu-linh/fonts/SVN-GothamBookItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamBookItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamBookItalic.svg#SVN-GothamBookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('../vu-linh/fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('../vu-linh/fonts/SVN-GothamLightItalic.woff') format('woff'),
+        url('../vu-linh/fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: '1FTV Blushing Rose';
+}
+
+.container-wrapper{
+    width: 100%;
+}
+
+.first {
+    background: url('./anh/IMG_3619.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative; /* Để lớp phủ nằm trên phần tử này */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+    z-index: 1; /* Đảm bảo lớp phủ nằm trên hình nền */
+}
+
+.lb-fir1{
+    /* margin-top: 50px; */
+    font-size: 60px;
+    position: relative; /* Để văn bản nằm trên lớp phủ */
+    z-index: 2; /* Đảm bảo văn bản nằm trên lớp phủ */
+}
+
+.lb-fir2{
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative; /* Để văn bản nằm trên lớp phủ */
+    z-index: 2; /* Đảm bảo văn bản nằm trên lớp phủ */
+}
+
+.lb-fir3{
+    font-size: 13px;
+    margin-top: 20px;
+    position: relative; /* Để văn bản nằm trên lớp phủ */
+    z-index: 2; /* Đảm bảo văn bản nằm trên lớp phủ */
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    margin: 50px 0 10px 40px;
+}
+.box-first{
+    display: flex;
+    flex-direction: column;
+}
+.img-logo{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.lb-box2{
+    /* margin-left: 40px; */
+}
+.box-second{
+    /* padding-left: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lb-box1{
+    margin: 10px;
+}
+
+
+
+.box-pp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding-left: 30px; */
+    margin-top: 50px;
+}
+
+.pp2{
+    font-size: 11px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: -100px;
+}
+
+.third {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./anh/BKV00093.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+
+.third::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); 
+    z-index: 0;
+}
+
+.box-timeline{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-timeline{
+    width: 80%;
+    margin: 100px 20px 0 0;
+
+}
+
+.box-dresscode{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 100px 20px 0 0;
+}
+
+.lb-dress{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.lb-dress2{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.img-dress{
+    width: 20%;
+}
+
+/* SLIDER */
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    position: relative;
+    overflow: hidden; /* <===  */
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  .btn:active {
+    transform: scale(1.1);
+  }
+  .btn-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+  .btn-next {
+    top: 45%;
+    right: 2%;
+  }
+
+
+
+
+
+.box-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tt-dd{
+    width: 200px;
+    border: 1px solid #111;
+    border-radius: 70%;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.wd{
+    font-size: 40px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+
+.box-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.date{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.date2{
+    font-size: 11px;
+}
+
+.box-loc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.location{
+    width: 15%;
+}
+
+.lb-wp{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.lb-add{
+    font-size: 11px;
+}
+
+.pic3{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 40px 0 40px;
+    z-index: 1;
+}
+
+input::placeholder{
+    font-family: 'SVN-Gotham';
+}
+
+.img-form{
+    width: 100%;
+}
+.lb-form{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+
+.feed-info{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0;
+}
+
+.in-fe{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+
+[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    /* white-space: nowrap; */
+    }
+
+.container-check {
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    font-family: 'SVN-Gotham';
+    font-weight: 300;
+    }
+    
+  
+.box-feed:checked+label {
+    color: #fff;
+    background-color: black;
+    }
+    
+.box-feed{
+  border-radius: 20px;
+  width: 100px;
+  z-index: 1;
+}
+    
+.box-check{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-family: 'SVN-Gotham';
+  border-radius: 20px;
+  /*margin: 0 15px;*/
+}
+
+.box-feed:checked+label {
+color: #111;
+background-color: #cccccb;
+}
+
+.box-feed{
+border-radius: 20px;
+}
+
+
+.til-check{
+  /* margin: 0 auto; */
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  }
+  
+
+.check-box {
+  width: 90px;
+  text-align: center;
+display: inline-block;
+border: 1px solid black;
+padding: 5px 10px;
+margin: 5px 20px;
+border-radius: 20px;
+font-style: normal;
+background-color: #fff;
+}
+.box-feed:checked+label {
+color: #111;
+background-color: #cccccb;
+}
+
+  .box-ten{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'SVN-Gontham';
+    }
+    
+    .inp-ten{
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin: 5px 0;
+    }
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 40px; */
+}
+.xacnhan{
+    height: 30px;
+    font-size: 15px;
+    background: #cccccb;
+    color: #111;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 150px;
+    z-index: 1;
+}
+    
+.box-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SVN-Gotham';
+  }
+  .count-per{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+
+    .xacnhan:hover{
+    background: black;
+    color: #fff;
+}
+
+.img-end{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: 50px;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -260px;
+    margin-bottom: 50px;
+}
+
+
+/* .end::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgb(255, 255, 255, 0.1), rgba(0, 0, 0)); 
+    z-index: 0;
+} */
+
+.lb-end{
+    color: #fff;
+    z-index: 2;
+    font-size: 20px;
+    margin-top: -100px;
+
+}
+
